@@ -2,7 +2,8 @@ public class SecondClass {
     public static int firstField = 1234;
 
     public int returnInt() {
-        System.out.println(firstField);
+        String modifiedField = "---" + firstField + "---";
+        System.out.println(modifiedField);
         return firstField;
     }
 }
